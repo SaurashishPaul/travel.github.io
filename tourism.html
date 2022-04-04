@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tourism.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <script src="https://kit.fontawesome.com/bd623af69b.js" crossorigin="anonymous"></script>
+   <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
+</head>
+<body>
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span></span>Travel</a>
+
+
+   <nav class="navbar">
+       <a href="#home">Home</a>
+       <a href="#book">Book</a>
+       <a href="#packages">Packages</a>
+       <a href="#services">Services</a>
+       <a href="#gallery">Gallery</a>
+       <a href="#review">Review</a>
+       <a href="#contact">Contact</a>
+   </nav> 
+
+<div class="icons">
+    <i class="fas fa-search" id="search-btn"></i>
+    <i class="fas fa-sign-in-alt" id="login-btn"></i>
+</div>
+
+<form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here ......">
+    <label for="search-bar" class="fas fa-search"></label>
+</form>
+</header>
+
+<div class="login-form-container">
+
+
+    <i class="far fa-times-circle" id="form-close"></i>
+
+     <form action="">
+         <h3>login</h3>
+         <input type="email" class="box" placeholder="enter your email">
+         <input type="password" class="box" placeholder="enter your password">
+         <input type="submit" value="login now" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember">remember me</label>
+         <p>forgot password?<a href="#">click here</a></p>
+         <p>don't have any account? <a href="#">register now</a></p> 
+     </form> 
+
+
+</div>
+
+
+<section class="home" id='home'>
+
+     <div class="content">
+    <h3>Advanture is worthwhile</h3>
+    <p>Discover new place with us, advanture awaits</p>
+     <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="control">
+        <span class="vid-btn active" data-src="https://drive.google.com/file/d/1FbtJz8zSAgyyQXR7Ti79G1NZ-IpCjR6L/view?usp=sharing"></span>
+        <span class="vid-btn" data-src="1.mp4"></span>
+        <span class="vid-btn" data-src="2.mp4"></span>
+        <span class="vid-btn" data-src="3.mp4"></span>
+        <span class="vid-btn" data-src="4.mp4"></span>
+
+    </div>
+
+    <div class="video-container">
+        <video src="5.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+    </section>
+
+<section class="book" id="book">
+    <h1 class="heading">
+    <span>b</span>
+    <span>o</span>
+    <span>o</span>
+    <span>k</span>
+    <span class="space"></span>
+    <span>n</span>
+    <span>o</span>
+    <span>w</span>
+</h1> 
+
+<div class="row">
+    <div class="image">
+        <img src="https://t4.ftcdn.net/jpg/02/36/30/91/240_F_236309190_X9dWP3SVOYgDFKXbm995ntMtrJA5tIGG.jpg" alt="">
+    </div>
+   <form action="">
+       <div class="inputBox">
+          <h3>Where To</h3>
+          <input type="text" placeholder="place name">
+       </div>
+       <div class="inputBox">
+        <h3>How Many</h3>
+        <input type="text" placeholder="number of guests">
+     </div>
+       <div class="inputBox">
+           <h3>Arrivals</h3>
+           <input type="date">
+       </div>
+       <div class="inputBox">
+         <h3>Leaving</h3>
+         <input type="date">
+       </div>
+       <input type="submit" class="btn" value="book now">
+   </form>
+</div>
+
+
+</section>
+
+<section class="packages" id="packages"> 
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1> 
+    <div class="box-container">
+
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/14/Mumbai_Skyline_at_Night.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>MUMBAI</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+         
+        <div class="box">
+            <img src="https://www.umultirank.org/export/sites/default/.galleries/generic-images/Others/Winter-Calendar/why-should-I-study-in-Sydney.jpg_1079324579.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>SYDNEY</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+            
+        <div class="box">
+            <img src="https://images.adsttc.com/media/images/5d44/14fa/284d/d1fd/3a00/003d/large_jpg/eiffel-tower-in-paris-151-medium.jpg?1564742900" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>PARIS</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/10/caption.jpg?w=500&h=300&s=1&cx=1005&cy=690&chk=v1_2ed86f729380ea073850" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>TOKYO</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+         
+        <div class="box">
+            <img src="https://static.toiimg.com/thumb/msid-82031823,width-900,height-1200,resizemode-6.cms" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>EGYPT</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+            
+        <div class="box">
+            <img src="https://i.ndtvimg.com/i/2016-09/statue-of-liberty_650x400_81474551505.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>AMERICA</h3>
+                <P>Demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+        
+        <div class="box">
+            <img src="https://shrm-res.cloudinary.com/image/upload/c_crop,h_705,w_1254,x_0,y_49/w_auto:100,w_1200,q_35,f_auto/v1/Global%20HR/Seoul1m_usakpg.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>SOUTH KOREA</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="https://www.andbeyond.com/wp-content/uploads/sites/5/nepal-village.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>NEPAL</h3>
+                <P>demo Text </P>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price"> ₹90.00 <span>₹120.00</span> </div>
+                 <a href="#" class="btn">BOOK NOW</a>
+            </div>
+        </div>
+       
+    </div>
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+  
+    <div class="box-container">
+    <div class="box">
+        <i class="fas fa-hotel"></i>
+         <h3>AFFODABLE HOTELS</h3>
+         <p>Demo Text </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-utensils"></i>
+         <h3>FOOD AND DRINKS</h3>
+         <p>Demo Text </p>
+    </div>
+    <div class="box">
+        <i class="fas fa-globe-asia"></i>
+         <h3>AROUND THE WORLD</h3>
+         <p>Demo Text</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-plane"></i>
+         <h3>FASTEST TRAVEL</h3>
+         <p>Demo Text</p>
+    </div>
+    <div class="box">
+        <i class="fas fa-hiking"></i>
+         <h3>ADVANTURE</h3>
+         <p>Demo Text</p>
+    </div>
+   
+</div>
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+<div class="box-container">
+
+<div class="box">
+     <img src="https://t3.ftcdn.net/jpg/02/52/57/54/240_F_252575412_fdLDrADIPJb70OatoOwkM2K3v6DMolOJ.jpg" alt="">
+     <div class="content">
+         <h3>AMAZING PLACES</h3>
+         <P>Demo Text </P>
+         <a href="#" class="btn">SEE MORE</a>
+     </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/02/65/23/70/240_F_265237090_Muthvb72m2POYFjyx7F5UCQLh9JdBtKN.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/04/59/55/84/240_F_459558430_mafeC0A2o87fowpZ53nM7VOA1LPbWWtT.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/02/86/72/18/240_F_286721823_jX2eKauNsttWhIxKAzPYhHwYpSRTCdcm.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/00/57/36/94/240_F_57369447_tSNZGqkL1nymsMuIUHpLTOTUBXLZaCEK.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/02/82/38/10/240_F_282381041_O7uUYn2MgQHcltBSnRnVf2daOZDR9nmO.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/02/69/50/12/240_F_269501282_bUgK33oNPNNTqPK32XUtuydUn2yQRfps.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/00/70/64/66/240_F_70646671_DEqJiGXlfddnsDuYqZaiVqnVAxDHRT0V.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/02/70/06/06/240_F_270060686_NoAEWqnGaAHBnBbToh7qtjBphmatwG5A.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/04/43/09/79/240_F_443097980_5D2mJLgUSfybTzld57tmzfNqUCQKQqKT.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/00/10/07/56/240_F_10075690_EpdJFrEqrPUEK8kOLN0n8qoCrM82Qg3V.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/01/82/33/74/240_F_182337471_EjhnBFcMRgoabuNLBNGjZNW1Ur8617o6.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/02/65/64/24/240_F_265642486_IXw9DQVzjTfAzT8xMtTBXBvYD8Who6Fw.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/01/87/11/41/240_F_187114121_FExr51ss9FI5Wt72kdx9C8CgBhPqUjGZ.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/00/69/11/83/240_F_69118320_1zfrdD4KG3oZEW0N6IRnEbQOtOjffdpW.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/01/42/52/03/240_F_142520399_Y0AUQuLnyaBtsTrWPzk4qGcnb5sTSkvq.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/02/51/12/11/240_F_251121174_5xQyUCqSrkswyLHbM9Ne8DQ8Qb0o1HGw.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/03/58/32/29/240_F_358322998_eWHzJmEnujVtb41bolba1Iz3tfIuCGYh.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t3.ftcdn.net/jpg/00/98/74/32/240_F_98743273_aP1hUnOZlXPEvJarjZ8y77Suv2MkRtOr.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+<div class="box">
+    <img src="https://t4.ftcdn.net/jpg/01/74/18/15/240_F_174181543_aX0zUrkpzaCMTPnHL9F5iumAOa3KInSj.jpg" alt="">
+    <div class="content">
+        <h3>AMAZING PLACES</h3>
+        <P>Demo Text </P>
+        <a href="#" class="btn">SEE MORE</a>
+    </div>
+</div>
+
+</div>
+</section>
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+               <div class="box">
+                   <img src="https://uploads-eu-west-1.insided.com/deezer-en/attachment/ad9c7945-988f-4569-bf88-2d80876241bb.jpg" alt="">
+                   <h3>JOHN DEO</h3>
+                   <p>Demo Text</p>
+                   <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                   </div>
+               </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://uploads-eu-west-1.insided.com/deezer-en/attachment/ad9c7945-988f-4569-bf88-2d80876241bb.jpg" alt="">
+                    <h3>MARINA PAUL</h3>
+                    <p>Demo Text</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+             </div>
+             <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://uploads-eu-west-1.insided.com/deezer-en/attachment/ad9c7945-988f-4569-bf88-2d80876241bb.jpg" alt="">
+                    <h3>SAURASHISH PAUL</h3>
+                    <p>Demo Text</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+             </div>
+             <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://uploads-eu-west-1.insided.com/deezer-en/attachment/ad9c7945-988f-4569-bf88-2d80876241bb.jpg" alt="">
+                    <h3>JOHN LOSEF</h3>
+                    <p>Demo Text</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+             </div>
+             <div class="swiper-slide">
+                <div class="box">
+                    <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202105/FB_IMG_1618481498084_1200x768.jpeg" alt="">
+                    <h3>KRITI JOE</h3>
+                    <p>Demo Text</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+    </div>
+</section>
+
+
+<section class="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span> 
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+     <div class="row">
+
+        <div class="image">
+            <img src="https://t4.ftcdn.net/jpg/01/69/78/25/240_F_169782587_AVQ1NWQhMf0vuujSlT1n2KPv1tN9crdd.jpg" alt="">
+        </div> 
+
+         <form action="">
+             <div class="inputBox">
+                 <input type="text" placeholder="Name">
+                 <input type="email" placeholder="email">
+             </div>
+             <div class="inputBox">
+                  <input type="number" placeholder="number">
+                  <input type="text" placeholder="subject">
+             </div>
+             <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+             <input type="submit" class="btn" value="send message">
+          </form>
+
+     </div>
+</section>
+
+<section class="brand-container">
+
+     <div class="brand-slider">
+         <div class="swiper-wrapper">
+         <div class="swiper-slide"><img src="https://t3.ftcdn.net/jpg/01/21/05/58/240_F_121055831_PELQCbjwuiTc6DSaguE8u6OJUjJ1VC0l.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t4.ftcdn.net/jpg/02/58/28/55/240_F_258285580_PmwmwqQOLY3N4PUyKPZScy7poLY0sYh7.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t4.ftcdn.net/jpg/03/00/06/03/240_F_300060367_1eCeF7HKfH0Dep46pEeX8qlyWOu5H939.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t3.ftcdn.net/jpg/03/30/45/84/240_F_330458470_P0HcIvufmbiaxp9SL4DZmkoncWCmhbsx.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t3.ftcdn.net/jpg/02/98/83/44/240_F_298834439_1po6dzsl16gGsX2J01HPOh64XYSWrIUj.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t4.ftcdn.net/jpg/01/79/80/53/240_F_179805312_9YX2SonjDjfrRIdLyYBoutwk6DwJ4kl3.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t4.ftcdn.net/jpg/02/58/24/67/240_F_258246769_wQpCkBrCBEGintZJMjcDwiHDNSvP0SUm.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t3.ftcdn.net/jpg/01/00/55/44/240_F_100554479_XM0CgHpk27Dgr7Ese1W977SCVSn5kzt8.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t4.ftcdn.net/jpg/04/62/47/77/240_F_462477799_8buZAJJfzzqW41vYmvqTh0LnKxThGC78.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t3.ftcdn.net/jpg/02/07/54/24/240_F_207542412_ZanPfYOKGU6Wn0xYornMvPN6xzOCpLzE.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t3.ftcdn.net/jpg/02/72/20/84/240_F_272208401_w3usO9kVcWGca6H8wKzdAoj39BT7bg9N.jpg" alt="">
+         <div class="swiper-slide"><img src="https://t4.ftcdn.net/jpg/01/30/49/17/240_F_130491739_VLTmeMQnepncjIcYOkMMZLsGUorSY7st.jpg" alt="">
+             </div>
+
+         </div>
+
+     </div>
+
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+    <div class="box">
+        <h3>ABOUT US</h3>
+        <p>Demo Text</p>
+    </div>
+    <div class="box">
+        <h3>BRANCH LOCATION</h3>
+        <a href="#">India</a>
+        <a href="#">USA</a>
+        <a href="#">Japan</a>
+        <a href="#">France</a>
+    </div>
+
+    <div class="box">
+        <h3>QUICK LINKS</h3>
+        <a href="#">>home</a>
+        <a href="#">>book</a>
+        <a href="#">>packages</a>
+        <a href="#">>Services</a>
+        <a href="#">>gallery</a>
+        <a href="#">>review</a>
+        <a href="#">>contact</a>
+    </div>
+    <div class="box">
+        <h3>FOLLOW US</h3>
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+        <a href="#">LinkedIn</a>
+    </div>
+</div>
+  <h1 class="credit"> © 2021 Copyright <span> Saurashish Paul </span> | all rights reserved! </h1>
+</section>
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="tourism.js"></script>    
+</body>
+</html>
